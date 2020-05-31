@@ -1,5 +1,5 @@
 // Отлично!: Чистый и аккуратный класс.
-class Api {
+export class Api {
     constructor(baseUrl, token){
       this.baseUrl = baseUrl;
       this.token = token;

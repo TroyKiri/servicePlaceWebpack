@@ -1,3 +1,13 @@
+import "./style.css";
+
+import {Api} from './js/Api';
+import {DeleteValidateErrors} from './js/DeleteValidateErrors';
+import {FormValidator} from './js/FormValidator';
+import {UserInfo} from './js/UserInfo';
+import {Popup} from './js/Popup';
+import {Card} from './js/Card';
+import {CardList} from './js/CardList';
+
 const placesList = document.querySelector('.places-list');
 const formPlace = document.querySelector('.popup__form_new-place');
 const formEditProfile = document.querySelector('.popup__form_new-profile');
@@ -10,6 +20,7 @@ const formWithoutErrors = new DeleteValidateErrors (formEditProfile);
 const imgPopup = document.querySelector('.imgpopup');
 
 const myId = '99f8d69176a6954ff0720e32';
+export {myId, placesList,formEditProfile};
 const baseUrl ='https://praktikum.tk/cohort10';
 const token = 'c642e499-651c-490f-aacf-b902daa3a0f2';
 

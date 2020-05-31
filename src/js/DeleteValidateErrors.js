@@ -1,4 +1,4 @@
-class DeleteValidateErrors {
+export class DeleteValidateErrors {
     constructor(form){
       this.form = form;
     }
