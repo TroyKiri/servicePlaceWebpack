@@ -1,4 +1,6 @@
-class Popup {
+import {formEditProfile} from '../index.js';
+
+export class Popup {
     constructor(container, form, name, job, imgPopup) {
       this.container = container;
       this.form = form;

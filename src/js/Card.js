@@ -1,4 +1,5 @@
-class Card {
+import {myId, placesList} from '../index.js';
+export class Card {
     constructor(name, link, likes, ownerId, id, container, api) {
       this.name = name;
       this.link = link;
